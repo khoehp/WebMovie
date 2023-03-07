@@ -1,10 +1,14 @@
-function tinhDienTichHinhTron() {
-  var a = document.getElementById("banKinh").value;
-  var s = document.getElementById("ketQua")
-  if (a >= 0) {
-    s.value = a * a * 3.14;
-  } else {
-    s.value = "vui long nhap r"
-  }
-  
-}
+
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+      if ($(this).scrollTop()) {
+          $('.backToTop').fadeIn();
+      } else {
+          $('.backToTop').fadeOut();
+      }
+  })
+  $('.backToTop').click(function () {
+      $("html,body").animate({ scrollTop: 0 }, 500)
+  })
+})
