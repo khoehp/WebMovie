@@ -148,12 +148,7 @@ body{
   .footer .emai-id{
     margin: 0;
   }
-  .theater .item3__top .logo{
-    width: 15%;
-  }
-  .theater .item3__top .item3__content{
-    width: 85%;
-  }
+ 
 }
 @media (max-width: 576px){
   .footer .row .col{
