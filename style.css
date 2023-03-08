@@ -768,6 +768,7 @@
 }
 .question .row .col__right p{
   line-height: 50px;
+  border-bottom: 1px solid rgb(66, 63, 63);
 }
 .question .row .col__right p:hover{
   cursor: pointer;
