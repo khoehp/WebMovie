@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-slider {
+    /* padding-top: 50%; */
+    height: 590px;
+    background: url(./img/theater.jpg) top center / cover no-repeat;
+    position: relative;
+}
+
+.image-slider__content {
+    position: absolute;
+    color: #fff;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.image-slider__content .title {
+    font-size: 3.6rem;
+}
+
+
+.image-item .image-title {
+    color: #fff;
+    font-size: 1.9rem;
+    margin-top: 16px;
+}
+
+.image {
+    /* width: 225px; */
+    height: 301px;
+    margin-bottom: 20px;
+    /* margin-right: 0; */
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.list-image {
+    padding-top: 10%;
+}
+
+.slick-initialized .slick-slide {
+    margin: 0 10px;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 60%;
+    transform: translateY(50%);
+    background: #2cccff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    transition: all linear .2s;
+
+}
+
+.slick-arrow:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-dots {
+    position: absolute;
+    margin-top: 20px;
+    /* bottom: 5px; */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    gap: 0 20px;
+}
+
+.slick-dots li {
+    list-style-type: none;
+}
+
+.slick-dots button {
+    font-size: 0;
+    padding: 5px 5px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: all linear .2s;
+    cursor: pointer;
+}
+
+.slick-dots .slick-active button {
+    background: #2cccff;
+}
+
+
+
+
+.trailer-slider {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    /* height: 400px; */
+    height: 400px;
+    background: url(./img/theater2.jpg) top center / cover no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+
+.image2{
+    height: 145px;
+    overflow: hidden;
+
+}
+
+.image2 .img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.image2:hover .img,
+.image2:focus .img{
+    transform: scale(1.2);
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container{
+    position: relative;
+    background: #fff;
+    width: 1000px;
+    height: 500px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    animation: modalFadein ease .3s;
+}
+
+@keyframes modalFadein {
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.modal.open{
+    display: flex;
+}

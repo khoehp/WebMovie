@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+
+.table1 {
+    width: 50%;
+    float: left;
+    font-size: 13px;
+}
+
+.table2 {
+    width: 50%;
+    float: left;
+    
+}
+
+.table2 button{
+    border-radius: 10px;
+    float: right;
+    border: none;
+    width: 90px;
+    height: 38px;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+
+
+.buttonThanhToanNgay{
+    margin-top: 15px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: white;
+    background: #D82D8B;
+    width: 175px;
+    height: 45px;
+  }
+
+  .kaitynguyenButton{
+    color: #D82D8B;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    /* padding: 4px 40px 4px 20px; */
+    background-color: #FFF0F6;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 150x;
+    height: 37px;
+  }
+
+.dropdown{
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title {
+    cursor: pointer;
+}
+
+.panel {
+    display: none;
+}
+
+.dropdown1{
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title1 {
+    cursor: pointer;
+}
+.panel1 {
+    display: none;
+}
+
+
+.dropdown2 {
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title2 {
+    cursor: pointer;
+}
+.panel2 {
+    display: none;
+}
+
+.dropdown3 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title3 {
+    cursor: pointer;
+}
+.panel3 {
+    display: none;
+}
+
+.dropdown4 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title4 {
+    cursor: pointer;
+}
+.panel4 {
+    display: none;
+}
+
+
+.dropdown5 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title5 {
+    cursor: pointer;
+}
+.panel5 {
+    display: none;
+}
+
+.dropdown6 {
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title6 {
+    cursor: pointer;
+}
+.panel6 {
+    display: none;
+}
+
+.dropdown7 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title7 {
+    cursor: pointer;
+}
+.panel7 {
+    display: none;
+}
+
+.dropdown8 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title8 {
+    cursor: pointer;
+}
+.panel8 {
+    display: none;
+}
+
+.dropdown9 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title9 {
+    cursor: pointer;
+}
+.panel9 {
+    display: none;
+}
+
+.dropdown10 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title10 {
+    cursor: pointer;
+}
+.panel10 {
+    display: none;
+}
+
+.dropdown11 {
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title11 {
+    cursor: pointer;
+}
+.panel11 {
+    display: none;
+}
+
+
+.dropdown12 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title12 {
+    cursor: pointer;
+}
+.panel12 {
+    display: none;
+}
+
+
+.dropdown13 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title13 {
+    cursor: pointer;
+}
+.panel13 {
+    display: none;
+}
+
+.dropdown14 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title14 {
+    cursor: pointer;
+}
+.panel14 {
+    display: none;
+}
+
+.dropdown15 {
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title15 {
+    cursor: pointer;
+}
+.panel15 {
+    display: none;
+}
+
+
+.dropdown16 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title16 {
+    cursor: pointer;
+}
+.panel16 {
+    display: none;
+}
+
+
+.dropdown17 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title17 {
+    cursor: pointer;
+}
+.panel17 {
+    display: none;
+}
+
+
+.dropdown18 {
+    border-bottom-style: ridge;
+    padding: 15px 0 15px 0;
+}
+.title18 {
+    cursor: pointer;
+}
+.panel18 {
+    display: none;
+}
+
+.divXemThem{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.buttonXemThem{
+    color: #D82D8B;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    /* padding: 4px 40px 4px 20px; */
+    border-radius: 10px;
+    border: 1px solid #D82D8B;
+    width: 150px;
+    height: 37px;
+    padding: 4px 24px 4px 16px;
+}
