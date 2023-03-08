@@ -3,8 +3,8 @@ $(document).ready(function(){
         slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
-        // autoplay: true,
-        // autoplaySpeed: 1000,
+        autoplay: true,
+        autoplaySpeed: 1000,
         
         arrows: true,
             // prevArrow:`<button type='button' class='slick-prev pull-left'><i class="fa-solid fa-arrow-left"></i></button>`,
